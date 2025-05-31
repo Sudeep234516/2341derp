@@ -1,1 +1,1 @@
-# 2341derp
+import functions_framework @functions_framework.cloud_event def gcs_trigger(cloud_event): data = cloud_event.data bucket = data.get("bucket") file_name = data.get("name") print(f"🐠File '{file_name}' # 2341derp
